@@ -22,7 +22,7 @@ public class Main {
                 }
             }
             if (count > 1)
-                System.out.printf("\nЧисло %d встречается %d раза", arrayCopy[i], count);
+                System.out.printf("\nЧисло '%d' встречается %d раза", arrayCopy[i], count);
         }
     }
 }
