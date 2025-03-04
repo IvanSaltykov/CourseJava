@@ -1,11 +1,14 @@
+import java.text.ParseException;
+import java.text.SimpleDateFormat;
+import java.util.Date;
 import java.util.Scanner;
 
 
 public class Main {
     Scanner scanner = new Scanner(System.in);
     public static void main(String[] args) {
-        new Main().Number1();
-        new Main().Number2();
+        //new Main().Number1();
+        //new Main().Number2();
         new Main().Number3();
     }
 
@@ -40,5 +43,17 @@ public class Main {
         String year = str.substring(6);
         String dateNew = String.join("-", year, mounth, day);
         System.out.println(dateNew);
+        Number4(str);
+    }
+    private void Number4(String str) {
+        SimpleDateFormat outPutFormat = new SimpleDateFormat ("yyyy-MM-dd");
+        SimpleDateFormat inPutFormat = new SimpleDateFormat("dd.MM.yyyy");
+        try {
+            Date date = inPutFormat.parse(str);
+            String dateNew = outPutFormat.format(date);
+            System.out.println(dateNew);
+        } catch (ParseException e) {
+            throw new RuntimeException(e);
+        }
     }
 }
