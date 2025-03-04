@@ -7,8 +7,8 @@ import java.util.Scanner;
 public class Main {
     Scanner scanner = new Scanner(System.in);
     public static void main(String[] args) {
-        //new Main().Number1();
-        //new Main().Number2();
+        new Main().Number1();
+        new Main().Number2();
         new Main().Number3();
     }
 
