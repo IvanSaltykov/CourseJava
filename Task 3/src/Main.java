@@ -5,7 +5,7 @@ public class Main {
         int[] array = new int[20];
         Random rand = new Random();
         for(int i = 0; i < array.length; i++) {
-            array[i] = rand.nextInt(15);
+            array[i] = rand.nextInt(16);
         }
         System.out.println(Arrays.toString(array));
         int[] arrayCopy = new int[array.length];
