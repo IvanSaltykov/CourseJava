@@ -6,7 +6,6 @@ public class Student implements Learner {
     private String name;
     private int age;
     private int group;
-
     @Override
     public void learn() {
         System.out.println("Я учусь. .zZ");
