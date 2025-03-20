@@ -1,7 +1,4 @@
 import java.text.SimpleDateFormat;
-import java.time.DateTimeException;
-import java.time.LocalDate;
-import java.time.LocalDateTime;
 import java.util.Date;
 import java.util.stream.IntStream;
 
@@ -15,7 +12,6 @@ public class Student implements Learner {
         System.out.println("Я учусь. .zZ");
         IntStream.range(0, 1000000).forEach(i -> Math.log(i));
         System.out.println("Я закончил учиться");
-        SimpleDateFormat dateFormat = new SimpleDateFormat("HH:mm:ss");
-        System.out.println("Текущее время: " + dateFormat.format(new Date()));
+        System.out.println("Текущее время: " + new SimpleDateFormat("HH:mm:ss").format(new Date()));
     }
 }
