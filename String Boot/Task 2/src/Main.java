@@ -5,7 +5,7 @@ import java.util.stream.LongStream;
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
+/*        Scanner scanner = new Scanner(System.in);
         System.out.print("Введите первое число: ");
         int a = scanner.nextInt();
         System.out.print("Введите второе число: ");
@@ -13,8 +13,8 @@ public class Main {
         if (a > b){
             System.out.println("Первое число должно быть больше второго");
             return;
-        }
-        new Main().getArithmeticProgressionSum(a, b);
+        }*/
+        new Main().getArithmeticProgressionSum(10_000_000, 1_000_000_000);
     }
     private void getArithmeticProgressionSum(int a, int b) {
         long result = LongStream.rangeClosed(a, b).reduce(0, Long::sum);
