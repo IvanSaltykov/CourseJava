@@ -12,7 +12,7 @@ public class Main {
         double a = scanner.nextDouble();
         System.out.print("Введите число b: ");
         double b = scanner.nextDouble();
-        System.out.print("Введ1ите тип операции: [adder, divider, multiplier, subtractor]: ");
+        System.out.print("Введите тип операции: [adder, divider, multiplier, subtractor]: ");
         String operation = scanner.next();
         System.out.println(calculator.calculation(a, b, context, operation));
         context.close();
