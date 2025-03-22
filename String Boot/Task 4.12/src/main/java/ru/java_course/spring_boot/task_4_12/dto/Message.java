@@ -6,6 +6,7 @@ public class Message {
     int id;
     String title;
     String text;
+    LocalDateTime time;
 
     public Message(int id, String title, String text, LocalDateTime time) {
         this.id = id;
@@ -13,8 +14,6 @@ public class Message {
         this.text = text;
         this.time = time;
     }
-
-    LocalDateTime time;
 
     public int getId() {
         return id;
