@@ -1,2 +1,4 @@
 4.9 Задание 12. Инверсия контроля. Внедрение зависимостей - https://github.com/IvanSaltykov/CourseJava/tree/e4c07d842bdaf4ec8bbb1150ad9b5ad13cf53f1a/String%20Boot/Task%203 \
-4.11 Задание 13. добавить в проект компоненты для операций деления и умножения - https://github.com/IvanSaltykov/CourseJava/tree/e4c07d842bdaf4ec8bbb1150ad9b5ad13cf53f1a/String%20Boot/Task%204
+4.11 Задание 13. добавить в проект компоненты для операций деления и умножения - https://github.com/IvanSaltykov/CourseJava/tree/e4c07d842bdaf4ec8bbb1150ad9b5ad13cf53f1a/String%20Boot/Task%204 \
+4.13 Задание 14. Добавить в проект класс Message - https://github.com/IvanSaltykov/CourseJava/tree/7a5b0f922e2a7547ce4b608fdf341a9fa866a4ca/String%20Boot/Task%204.12 \
+4.16 Задание 15. Исправить запрос на обновление - https://github.com/IvanSaltykov/CourseJava/tree/7a5b0f922e2a7547ce4b608fdf341a9fa866a4ca/String%20Boot/Task%204.16
