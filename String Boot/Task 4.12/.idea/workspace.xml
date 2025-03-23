@@ -4,7 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e8cc5442-7e98-44ac-8e61-bce07a61bafe" name="Changes" comment="." />
+    <list default="true" id="e8cc5442-7e98-44ac-8e61-bce07a61bafe" name="Changes" comment=".">
+      <change afterPath="$PROJECT_DIR$/../Task 4.16/src/main/java/ru/java_course/spring_boot/controller/MessageController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Task 4.16/src/main/java/ru/java_course/spring_boot/controller/PersonController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Task 4.16/src/main/java/ru/java_course/spring_boot/dto/Message.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Task 4.16/src/main/java/ru/java_course/spring_boot/dto/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Task 4.16/src/main/java/ru/java_course/spring_boot/repository/MessageRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Task 4.16/src/main/java/ru/java_course/spring_boot/repository/PersonRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -53,25 +61,26 @@
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
-    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
-    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
-    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;Spring Boot.Application.executor&quot;: &quot;Run&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "Spring Boot.Application.executor": "Run",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "E:/Git/String Boot/Task 4.12",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="ru.java_course.spring_boot.task_4_12" />
@@ -103,7 +112,11 @@
       <option name="presentableId" value="Default" />
       <updated>1742661314266</updated>
       <workItem from="1742661315390" duration="3711000" />
-      <workItem from="1742670549515" duration="1039000" />
+      <workItem from="1742670549515" duration="1233000" />
+      <workItem from="1742712808193" duration="964000" />
+      <workItem from="1742720326840" duration="609000" />
+      <workItem from="1742722904952" duration="36000" />
+      <workItem from="1742732776415" duration="28000" />
     </task>
     <task id="LOCAL-00001" summary=".">
       <option name="closed" value="true" />
@@ -113,7 +126,15 @@
       <option name="project" value="LOCAL" />
       <updated>1742671532069</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary=".">
+      <option name="closed" value="true" />
+      <created>1742671635349</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1742671635349</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
